@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/General3.dir/main.cpp.o  -o General3 

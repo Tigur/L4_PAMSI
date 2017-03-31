@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/resolution/CLionProjects/General3/headers/STLqueue.h
+iostream
+-
+queue
+-
+
+/home/resolution/CLionProjects/General3/headers/STLstack.h
+iostream
+-
+stack
+-
+
+/home/resolution/CLionProjects/General3/headers/defines.h
+
+/home/resolution/CLionProjects/General3/headers/tabQueue.h
+iostream
+-
+
+/home/resolution/CLionProjects/General3/headers/tabStack.h
+iostream
+-
+
+/home/resolution/CLionProjects/General3/main.cpp
+iostream
+-
+headers/STLstack.h
+/home/resolution/CLionProjects/General3/headers/STLstack.h
+headers/STLqueue.h
+/home/resolution/CLionProjects/General3/headers/STLqueue.h
+headers/tabQueue.h
+/home/resolution/CLionProjects/General3/headers/tabQueue.h
+headers/tabStack.h
+/home/resolution/CLionProjects/General3/headers/tabStack.h
+headers/defines.h
+/home/resolution/CLionProjects/General3/headers/defines.h
+
