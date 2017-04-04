@@ -6,39 +6,83 @@
 
 #IncludeRegexTransform: 
 
-/home/resolution/CLionProjects/General3/headers/STLqueue.h
+/home/resolution/CLionProjects/L4_PAMSI/headers/List.h
+cell.h
+/home/resolution/CLionProjects/L4_PAMSI/headers/cell.h
+
+/home/resolution/CLionProjects/L4_PAMSI/headers/STLqueue.h
 iostream
 -
 queue
 -
 
-/home/resolution/CLionProjects/General3/headers/STLstack.h
+/home/resolution/CLionProjects/L4_PAMSI/headers/STLstack.h
 iostream
 -
 stack
 -
+defines.h
+<<<<<<< Updated upstream
+/home/resolution/CLionProjects/General3/headers/defines.h
+=======
+/home/resolution/CLionProjects/L4_PAMSI/headers/defines.h
 
+/home/resolution/CLionProjects/L4_PAMSI/headers/cell.h
+
+/home/resolution/CLionProjects/L4_PAMSI/headers/defines.h
+>>>>>>> Stashed changes
+
+/home/resolution/CLionProjects/L4_PAMSI/headers/myStack.h
+iostream
+-
+List.h
+/home/resolution/CLionProjects/L4_PAMSI/headers/List.h
+cell.h
+/home/resolution/CLionProjects/L4_PAMSI/headers/cell.h
+
+/home/resolution/CLionProjects/L4_PAMSI/headers/tabQueue.h
+iostream
+-
+defines.h
 /home/resolution/CLionProjects/General3/headers/defines.h
 
-/home/resolution/CLionProjects/General3/headers/tabQueue.h
+/home/resolution/CLionProjects/L4_PAMSI/headers/tabStack.h
 iostream
 -
 
-/home/resolution/CLionProjects/General3/headers/tabStack.h
+/home/resolution/CLionProjects/L4_PAMSI/main.cpp
 iostream
 -
-
-/home/resolution/CLionProjects/General3/main.cpp
-iostream
+cmath
+-
+ctime
 -
 headers/STLstack.h
-/home/resolution/CLionProjects/General3/headers/STLstack.h
+/home/resolution/CLionProjects/L4_PAMSI/headers/STLstack.h
 headers/STLqueue.h
-/home/resolution/CLionProjects/General3/headers/STLqueue.h
+/home/resolution/CLionProjects/L4_PAMSI/headers/STLqueue.h
 headers/tabQueue.h
-/home/resolution/CLionProjects/General3/headers/tabQueue.h
+/home/resolution/CLionProjects/L4_PAMSI/headers/tabQueue.h
 headers/tabStack.h
-/home/resolution/CLionProjects/General3/headers/tabStack.h
+/home/resolution/CLionProjects/L4_PAMSI/headers/tabStack.h
 headers/defines.h
-/home/resolution/CLionProjects/General3/headers/defines.h
+/home/resolution/CLionProjects/L4_PAMSI/headers/defines.h
+headers/myStack.h
+/home/resolution/CLionProjects/L4_PAMSI/headers/myStack.h
+timer/src/Timer.h
+/home/resolution/CLionProjects/L4_PAMSI/timer/src/Timer.h
+timer/src/Timer.cpp
+/home/resolution/CLionProjects/L4_PAMSI/timer/src/Timer.cpp
+
+/home/resolution/CLionProjects/L4_PAMSI/timer/src/Timer.cpp
+Timer.h
+/home/resolution/CLionProjects/L4_PAMSI/timer/src/Timer.h
+stdlib.h
+-
+
+/home/resolution/CLionProjects/L4_PAMSI/timer/src/Timer.h
+windows.h
+-
+sys/time.h
+-
 

@@ -8,93 +8,95 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/resolution/CLionProjects/General3/cmake-build-debug"/>
+				<Option working_dir="/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/resolution/CLionProjects/General3/cmake-build-debug"/>
+				<Option working_dir="/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/resolution/CLionProjects/General3/cmake-build-debug"/>
+				<Option working_dir="/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="General3">
-				<Option output="/home/resolution/CLionProjects/General3/cmake-build-debug/General3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/resolution/CLionProjects/General3/cmake-build-debug"/>
+				<Option output="/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/General3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 General3"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 General3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="General3/fast">
-				<Option output="/home/resolution/CLionProjects/General3/cmake-build-debug/General3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/resolution/CLionProjects/General3/cmake-build-debug"/>
+				<Option output="/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/General3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 General3/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/General3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 General3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/resolution/CLionProjects/L4_PAMSI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/resolution/CLionProjects/General3/headers/STLstack.h">
+		<Unit filename="/home/resolution/CLionProjects/L4_PAMSI/headers/STLstack.h">
 			<Option target="General3"/>
 		</Unit>
-		<Unit filename="/home/resolution/CLionProjects/General3/headers/defines.h">
+		<Unit filename="/home/resolution/CLionProjects/L4_PAMSI/headers/defines.h">
 			<Option target="General3"/>
 		</Unit>
-		<Unit filename="/home/resolution/CLionProjects/General3/headers/tabStack.h">
+		<Unit filename="/home/resolution/CLionProjects/L4_PAMSI/headers/tabStack.h">
 			<Option target="General3"/>
 		</Unit>
-		<Unit filename="/home/resolution/CLionProjects/General3/main.cpp">
+		<Unit filename="/home/resolution/CLionProjects/L4_PAMSI/main.cpp">
 			<Option target="General3"/>
 		</Unit>
-		<Unit filename="/home/resolution/CLionProjects/General3/CMakeLists.txt">
+		<Unit filename="/home/resolution/CLionProjects/L4_PAMSI/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

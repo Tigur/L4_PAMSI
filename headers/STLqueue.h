@@ -11,7 +11,7 @@ using namespace std;
 
 void clear (queue<int> S)
 {
-    for (int i=0; i<S.size();i++)
+    for (int i=0; i<MAX_CAP;i++)
     {
         S.pop();
     }

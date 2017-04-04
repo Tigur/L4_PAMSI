@@ -5,9 +5,9 @@
 #ifndef QUEUETAB_TABQUEUE_H
 #define QUEUETAB_TABQUEUE_H
 #include <iostream>
+#include"defines.h"
 
 
-#define MAX_SIZE 500000
 
 
 using namespace std;
@@ -15,40 +15,72 @@ using namespace std;
 template <class type>
 class tabQueue
 {
-    int size;
+    int size=0;
+    int currentTab=1;
 
     int wyjatek;
 
-    type tab[MAX_SIZE];
-    int top=MAX_SIZE-1;
-    int back=MAX_SIZE-1;
+<<<<<<< Updated upstream
+    type tab[MAX_CAP];
+    int top=MAX_CAP-1;
+    int back=MAX_CAP-1;
+=======
+    type* tab= new type [1];
+    int top=currentTab;
+    int back=currentTab;
+>>>>>>> Stashed changes
 
 
 
 public:
 
+    bool moreSpace(int& size)
+    {
+        type *temp= new type[size+1];
+        for (int i=0;i<size;i++)
+        {
+            temp[top-i]=tab[top-i];
 
+        }
+        delete[] tab;
+        tab=temp;
+
+        size++;
+        return true;
+    }
 
 
     void changeBack()
     {
         back --;
         if(back<0)
-            back=MAX_SIZE;
+<<<<<<< Updated upstream
+            back=MAX_CAP;
+=======
+            back=currentTab;
+>>>>>>> Stashed changes
     }
     void changeTop()
     {
         top --;
         if(top<0)
-            top=MAX_SIZE;
+<<<<<<< Updated upstream
+            top=MAX_CAP;
+=======
+            top=currentTab;
+>>>>>>> Stashed changes
     }
 
     bool push( type value)
     {
-        if(size==500000)
+        if(size==MAX_SIZE)
         {
             cerr << "kolejka pełna !!" << endl;
             return false;
+        }
+        if(size==currentTab)
+        {
+            moreSpace(currentTab);
         }
         tab[back]=value;
         changeBack();
@@ -89,7 +121,7 @@ public:
 
             tp --;
             if(tp<0)
-                tp=MAX_SIZE;
+                tp=MAX_CAP;
             //changeTop();
         }
 

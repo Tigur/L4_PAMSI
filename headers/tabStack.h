@@ -14,21 +14,44 @@ class tabStack
 {
 
 
-    type tab[500000];
+    type* tab= new type[1];
+    int size=1;
     int top=-1;
 
 public:
 
+
+
+    bool moreSpace(int size)
+    {
+        type *temp= new type[size+1];
+        for (int i=0;i<size;i++)
+        {
+            temp[i]=tab[i];
+
+        }
+        delete tab;
+        tab=temp;
+
+        return true;
+    }
     bool push( type value)
     {
+        if(top=size-1)
+        {
+            moreSpace(size);
+        }
         tab[top+1]=value;
         top++;
+        size++;
+
         return true;
     }
     bool pop()
     {
         tab[top]=NULL;
         top--;
+        size--;
 
         return true;
     }
